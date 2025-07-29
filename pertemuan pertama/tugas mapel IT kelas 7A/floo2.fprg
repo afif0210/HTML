@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="arg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 11:33:54 PM"/>
+        <attribute name="created" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA0OzA5OjQ4OjM5IFBNOzI2ODU="/>
+        <attribute name="edited" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA0OzExOjMzOjU0IFBNOzE7Mjc3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;MENGHITUNG KELILING SEGITIGA&quot;" newline="True"/>
+            <declare name="sisia" type="Integer" array="False" size=""/>
+            <declare name="sisib" type="Integer" array="False" size=""/>
+            <declare name="sisic" type="Integer" array="False" size=""/>
+            <declare name="keliling" type="Real" array="False" size=""/>
+            <input variable="sisia"/>
+            <input variable="sisib"/>
+            <input variable="sisic"/>
+            <assign variable="keliling" expression="sisia + sisib +sisic"/>
+            <output expression="&quot;maka luas keliling dari segitiga adalah&quot;&amp;keliling" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

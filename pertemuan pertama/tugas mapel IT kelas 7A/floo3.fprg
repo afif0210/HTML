@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="arg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 08:23:07 PM"/>
+        <attribute name="created" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA0OzExOjQ4OjQ4IFBNOzI2Nzg="/>
+        <attribute name="edited" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA1OzA4OjIzOjA3IFBNOzI7Mjc4Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;menghitung luas lingkaran&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

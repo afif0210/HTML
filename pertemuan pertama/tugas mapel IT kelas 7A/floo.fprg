@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="arg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-04 11:14:30 PM"/>
+        <attribute name="created" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA0OzA5OjQ3OjQ1IFBNOzI2ODE="/>
+        <attribute name="edited" value="YXJnO0xBUFRPUC1WUjZFUUFOMjsyMDIzLTA5LTA0OzExOjE0OjMwIFBNOzE7Mjc3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;MENGHITUNG LUAS PERSEGI PANJANG&quot;" newline="True"/>
+            <declare name="PANJANG" type="Integer" array="False" size=""/>
+            <declare name="LEBAR" type="Integer" array="False" size=""/>
+            <declare name="LUAS" type="Real" array="False" size=""/>
+            <input variable="PANJANG"/>
+            <input variable="LEBAR"/>
+            <assign variable="LUAS" expression="panjang * lebar"/>
+            <output expression="&quot;Maka luas dari persegi panjang tersebut adalah &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
