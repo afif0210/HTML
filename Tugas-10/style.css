@@ -1,0 +1,122 @@
+.img1 {
+  width: 100px;
+  height: 70px;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.img2 {
+    width: 1500px;
+    height: 700px;
+    background-image: none;
+    justify-content: end;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+    padding: 10px 20px;
+}
+h2 {
+    text-align: center;
+}
+.visi{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.card1 {
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin: 20px;
+    padding: 16px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+.cardall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 {
+    width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin: 20px;
+    padding: 16px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+.card3 {
+     width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin: 20px;
+    padding: 16px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+.card4 {
+      width: 300px;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin: 20px;
+    padding: 16px;
+    font-size: 25px;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 10px 0px rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.visi {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size:medium;
+}
+.misi {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+.tombol {
+    background-color: bisque;
+    width: 100px;
+    height: 30px;
+}
+.tombol2 {
+     background-color: bisque;
+    width: 100px;
+    height: 30px
+}
+.footer {
+    background-color: bisque;
+    text-align: center;
+}
+    

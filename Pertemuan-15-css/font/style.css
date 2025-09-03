@@ -1,0 +1,15 @@
+h1 {
+    color: lime;
+    text-shadow: 4px -5px 2px rgba(0, 0, 0, 0.8);
+}
+p.font-big{
+    font-size: xx-large;
+}
+p{
+    font-size: normal;
+}
+p.font-small{
+    font-size: xx-small;
+p.font-sans-serif {
+    
+}

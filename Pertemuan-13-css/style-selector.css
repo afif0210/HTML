@@ -1,9 +1,21 @@
-h1,
-h2[]
-h3[type="text"] {
-    color:"brown"
+h1 {
+
 }
-p {
-    color: blue;
-    font-family: ;
+body {
+     background-image: url('./download\ \(15\).jpg');
+     background-repeat: no-repeat   ;
+}
+body {
+        background-image: url('./download\ \(15\).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      header {
+        background: rgba(255,255,225, 0.5);
+      }
+article {
+    background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        padding: 1rem;
 }

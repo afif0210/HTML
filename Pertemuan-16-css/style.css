@@ -1,0 +1,50 @@
+p {
+    color: red;
+    text-align: justify;
+    line-height: 1,5;
+}
+
+p:hover {
+    color: green;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+#halaman_utama {
+    background-color: cyan;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+}
+
+input[type="text"] {
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+
+* {
+    border-color: chocolate;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+h1::after {
+    content: " (selamat datang di halaman utama)";
+    font-size: 16px;
+    color: grey;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
