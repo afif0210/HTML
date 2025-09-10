@@ -1,0 +1,28 @@
+h1 {
+  border-radius: 30px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gambar {
+  justify-content: center;
+  display: flex;
+  align-content: center;
+  margin: 0;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+div {
+  text-align: center;
+  color: white;
+}
+h1 {
+  color: aliceblue;
+}
+body {
+  background-image: url(./download\ \(18\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
