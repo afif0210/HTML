@@ -1,0 +1,15 @@
+header {
+   border: 40px solid transparent;
+   border-image-source: url(./border-new.png);
+   border-image-slice: 80;
+   border-image-repeat: round;
+   border-radius: 24px;
+   max-width: 900px;
+   height: 200px;
+   margin: auto;
+
+}
+h1 {
+    text-align:  center;
+    
+}

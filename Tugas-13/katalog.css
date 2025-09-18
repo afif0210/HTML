@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div {
+  margin-left: 30px;
+}
+img {
+  border: 5px solid black;
+  border-radius: 50px;
+  border: dashed;
+}
+.jeruk {
+  width: 250px;
+  height: 200px;
+}
+.mangga {
+  width: 250px;
+  height: 200px;
+}
+.kiwi {
+  width: 250px;
+  height: 200px;
+}
+.harga {
+  border: 5px solid black;
+  border: dashed;
+}
+.harga:hover {
+  color: aquamarine;
+}

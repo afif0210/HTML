@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator Tabungan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 40px;
+      background: #f4f6f9;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    input {
+      width: 90%;
+      padding: 8px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #4CAF50;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #45a049;
+    }
+    .hasil {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Kalkulator Tabungan</h2>
+    <label>Target Tabungan (Rp):</label><br>
+    <input type="number" id="target" placeholder="contoh: 10000000"><br>
+    <label>Lama Menabung (bulan):</label><br>
+    <input type="number" id="bulan" placeholder="contoh: 12"><br>
+    <button onclick="hitung()">Hitung</button>
+    <div class="hasil" id="hasil"></div>
+  </div>
+
+  <script>
+    function hitung() {
+      let target = document.getElementById("target").value;
+      let bulan = document.getElementById("bulan").value;
+      if (target > 0 && bulan > 0) {
+        let perBulan = target / bulan;
+        document.getElementById("hasil").innerText =
+          "Kamu harus menabung Rp " + perBulan.toLocaleString() + " per bulan.";
+      } else {
+        document.getElementById("hasil").innerText = "Isi target dan jumlah bulan dulu!";
+      }
+    }
+  </script>
+</body>
+</html>
