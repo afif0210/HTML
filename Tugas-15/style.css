@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card1 {
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  max-width: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+.card2 {
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  max-width: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
+}
+img {
+  width: 200px;
+  height: 150px;
+}
+.card3 {
+  margin: 30px;
+  padding: 30px;
+  text-align: left;
+  height: 210px;
+  width: 250px;
+  max-width: 800px;
+  border: 1px solid black;
+
+  border-radius: 20px;
+}
+.rating {
+  color: #ffe100;
+}
+.card4 {
+  margin: 30px;
+  padding: 30px;
+  text-align: left;
+  height: 210px;
+  width: 250px;
+  max-width: 800px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.feedback {
+  display: flex;
+  justify-content: center;
+}
