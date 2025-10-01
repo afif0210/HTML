@@ -1,0 +1,84 @@
+body {
+    min-height: 100vh;
+    padding: 20px;
+
+}
+.header-sticky {
+    z-index: 10000;
+    top: 0;
+    position: sticky;
+    background-color:#ddd;
+    padding: 15px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    border: 1px solid black;
+}
+img {
+    position: relative;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.card{
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(red, green, blue, alpha);
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+
+
+}
+.tag {
+    background-color: #ddd;
+    width: 30px;
+}
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: #ddd;
+    padding: 5px 15px;
+    border-radius: 90px;
+    font-weight: 700px;
+    font-size: 12px;
+    box-shadow: 0 4px 10px rgba(red, green, blue, alpha);    
+}
+.container {
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.box-A {
+background-color: red;
+top: 20px;
+left: 80px;
+}
+.box-B {
+    background-color: blue;
+    top: 80px;
+    right: 60px;
+}

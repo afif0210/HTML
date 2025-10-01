@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.navigasi {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        ul.navigasi li {
+            float: left;
+        }
+        ul.navigasi li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        ul.navigasi li a:hover{
+            background-color: #111;
+        }
+        .container {
+            width: 100px;
+        }
+        .sidebar {
+            float: left;
+            width: 30px;
+            background-color: #0046FF;
+        }
+        .content {
+            float: right;
+            width: 70%;
+            background-color: #D97D55;
+        }
+        .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+   <ul class="navigasi">
+        <li> <a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+<div class="container">
+    <div class="sidebar">ini adalah sidebar</div>
+    <div class="content">ini adalah content utama</div>
+</div>
+
+    <div class="container clearfix">
+
+    </div>
+</body>
+</html>
