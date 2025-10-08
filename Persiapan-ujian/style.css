@@ -1,0 +1,53 @@
+body {
+    background: beige;
+}
+header {
+   height:100px ;
+    background-color: wheat ; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+.nav-menu:hover {
+    background: white;
+}
+.kontainer {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid black; 
+    border-radius: 20px;
+}
+.card1 {
+    height: 100px;
+    width: 250px;
+    background: lightskyblue;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.card2 {
+    height: 100px;
+    width: 250px;
+    background: lightblue;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.card3 {
+  height: 100px;
+    width: 250px;
+    background: blue;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+}

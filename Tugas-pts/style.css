@@ -1,0 +1,50 @@
+header {
+    color: white;
+    text-align: center;
+    background-color: rgb(44, 68, 188);
+}
+body {
+    background-color: rgb(135, 192, 250);
+}
+.card1 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 550px;
+    height: 300px;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.card2 {
+    background-color: white;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 550px;
+    height: 150px;
+    margin-top: 30px;
+}
+.card3 {
+     background-color: white;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 550px;
+    height: 150px;
+    margin-top: 30px;   
+}
+h3 {
+    color: blue;
+}
+footer {
+    color: white;
+    background-color: rgb(44, 68, 188);
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 30px;
+}
