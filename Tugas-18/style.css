@@ -1,0 +1,70 @@
+.pembungkus {
+    display: flex;
+}
+header {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pembungkus {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+h1 {
+    text-align: center;
+}
+.box1 {
+background-color: red;
+color: white;
+text-align: left;
+border: 2px solid white;
+list-style-position: inside;
+justify-content: center;
+width: 300px;
+}
+.ordered {
+    background-color: white;
+    color: black;
+    text-align: left;
+}
+.abu {
+    background-color: #eeeeee;
+}
+.box2 {
+    background-color: yellow;
+    color: white;
+    text-align: left;
+    border: 2px solid white;
+    width: 100px;
+    margin-right: 100px;
+    list-style-position: inside;
+    width: 300px;
+}
+.unordered {
+    background-color: white;
+    color: black;
+    margin-top: 20px;
+}
+.abu1 {
+    list-style-type: circle;
+    background-color: #eeeeee;
+}
+.box3 {
+    background-color: #77BEF0;
+    color: white;
+    text-align: center;
+    border: 2px solid  white;
+    width: 300px;
+    height: 410px;
+}
+.description {
+    background-color: white;
+    color: black;
+}
+.red {
+    color: red;
+    text-align: left;
+}
