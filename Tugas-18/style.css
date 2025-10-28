@@ -1,70 +1,89 @@
 .pembungkus {
-    display: flex;
+  display: flex;
 }
 header {
-    background-color: grey;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  font-family: arial, sans-serif;
 }
 .pembungkus {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
 }
 h1 {
-    text-align: center;
+  text-align: center;
+}
+li {
+    font-family: arial, sans-serif;
+    font-size: 34px;
 }
 .box1 {
-background-color: red;
-color: white;
-text-align: left;
-border: 2px solid white;
-list-style-position: inside;
-justify-content: center;
-width: 300px;
+  background-color: red;
+  color: white;
+  text-align: left;
+  border: 2px solid white;
+  border-radius: 20px;
+  list-style-position: inside;
+  justify-content: center;
+  width: 400px;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
 }
 .ordered {
-    background-color: white;
-    color: black;
-    text-align: left;
+  width: 400px;
+  height: 299px;
+  background-color: white;
+  color: black;
+  text-align: left;
 }
 .abu {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 }
 .box2 {
-    background-color: yellow;
-    color: white;
-    text-align: left;
-    border: 2px solid white;
-    width: 100px;
-    margin-right: 100px;
-    list-style-position: inside;
-    width: 300px;
+  background-color: yellow;
+  color: white;
+  text-align: left;
+  border: 2px solid white;
+  border-radius: 20px;
+  list-style-position: inside;
+  width: 400px;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
 }
 .unordered {
-    background-color: white;
-    color: black;
-    margin-top: 20px;
+  width: 400px;
+  height: 299px;
+  background-color: white;
+  color: black;
+  text-align: left;
 }
 .abu1 {
-    list-style-type: circle;
-    background-color: #eeeeee;
+  list-style-type: circle;
+  background-color: #eeeeee;
 }
 .box3 {
-    background-color: #77BEF0;
-    color: white;
-    text-align: center;
-    border: 2px solid  white;
-    width: 300px;
-    height: 410px;
+  background-color: #77bef0;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  width: 300px;
+  height: 410px;
+  box-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
 }
 .description {
-    background-color: white;
-    color: black;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
 }
 .red {
-    color: red;
-    text-align: left;
+  color: red;
+  text-align: left;
 }
