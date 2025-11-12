@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;    
+    min-height: 100vh;
+    background-color: #f0f0f0; 
+    padding-top: 50px; 
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #8e44ad, #c0392b, #f39c12); /* Gradient warna dari gambar */
+    padding: 30px 50px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%; 
+    max-width: 900px; 
+    
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    flex-shrink: 0; 
+}
+
+
+.profile-info {
+    flex-grow: 1; 
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2.5em; 
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin-top: 5px;
+    font-size: 1.2em; 
+    opacity: 0.9;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.download-cv {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.download-cv:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hire-me {
+    background-color: #1abc9c; 
+    border: 1px solid #1abc9c;
+}
+
+.hire-me:hover {
+    background-color: #16a085;
+}
+
+
+@media (max-width: 768px) {
+    .profile-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+        width: 90%;
+    }
+
+    .profile-image {
+        margin: 0 auto 30px auto; 
+    }
+
+    .profile-info h1 {
+        font-size: 2em;
+    }
+
+    .profile-info p {
+        font-size: 1em;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; 
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-right: 0; 
+        width: 100%; 
+    }
+}
