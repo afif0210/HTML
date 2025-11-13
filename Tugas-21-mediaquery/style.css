@@ -1,0 +1,55 @@
+body {
+  font-size: 26px;
+}
+
+.pembungkus-semuanya {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  border: 2px solid white;
+  width: 450px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  height: 380px;
+}
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+img {
+  width: 100%;
+}
+.card2 {
+  border: 2px solid white;
+  width: 450px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  height: 380px;
+}
+.card3 {
+  border: 2px solid white;
+  width: 450px;
+  padding: 10px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  height: 380px;
+}
+
+@media screen and (max-width: 500px) {
+  .pembungkus-semuanya {
+    display: block;
+  }
+}
+
