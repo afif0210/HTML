@@ -1,0 +1,39 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;}
+.box:hover {
+    transform: rotate(45deg);
+}
+
+.scale {
+    width: 100px;height: 100px;
+    background-color: blue;
+}
+.scale:hover {
+    transform: scale(0.3);
+}
+
+.box-translate {
+    width: 100px;height: 100px;
+    background-color: green;
+}
+.box-translate:hover {
+    transform: translateX(50px);
+    transform: translateY(100px);
+}
+.box-skew {
+    width: 100px;height: 100px;
+    background-color: yellow;
+}
+.box-skew:hover {
+    transform: skew(45deg);
+}
+.box-mix {
+    width: 100px;height: 100px;
+    background-color: pink;
+}
+.box-mix:hover {
+    transform: rotate(10deg) scale(1.1) translateY(-10px);
+}
+
